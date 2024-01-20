@@ -1,0 +1,297 @@
+body {
+    margin: 0;
+    padding: 0;
+   font-family: 'Great Vibes', cursive;
+   font-family: 'Tangerine', cursive;
+    background-color: #52D3D8;  Light green background #C1F2B0;*/
+    width: 100;
+}
+
+/*.cloud1, .c2, .c3, .c4 {
+    position: absolute;
+    top: 0;
+    animation: floatClouds linear infinite 5s;
+
+}*/
+/* Add styles for the new cloud divs */
+.cloud1, .c2,.bird1{
+    position: absolute;
+    top: 50px; /* Adjust the top value as needed */
+    animation: floatClouds linear infinite 5s;
+}
+
+.cloud1 {
+    left: 50px; /* Adjust the left value as needed */
+}
+
+.c2 {
+    right: 50px; /* Adjust the right value as needed */
+}
+
+.c3, .c4,.bird2 {
+    position: absolute;
+    bottom: 50px; /* Adjust the top value as needed */
+    animation: floatClouds linear infinite 5s;
+}
+
+.c3,.bird1{
+    left: 50px; /* Adjust the left value as needed */
+}
+
+.c4,.bird2{
+    right: 50px; /* Adjust the right value as needed */
+}
+
+
+@keyframes floatClouds {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(20px); }
+    100% { transform: translateX(0); }
+}
+
+.mountain1 {
+    position: relative;
+    margin-top: -10px; /* Adjusted margin for mountain */
+    margin-left: 270px;
+    margin-bottom:30px;
+}
+
+.text {
+    text-align: center;
+    color: #2F4F4F; /* Dark slate gray text color */
+    margin-top: 50px;
+    font-size: 1.8em; /* Adjust the font size as needed */
+    font-family: 'Tangerine', cursive;
+}
+ /* Adjusted margin for text section */
+
+
+h1 {
+
+    font-size: 3em;
+    margin-bottom: 10px; /* Adjusted margin for h1 */
+    position: static;
+     margin-top: 10%;
+      margin-bottom: 0;
+      color:#0F1035;
+      font-size: 700%;
+      font-style: italic;
+      font-family:'sacramento',cursive ;
+
+     }
+p {
+    font-family: 'Tangerine', cursive;
+    font-size: 1.5em;
+    margin-top: 10px;
+    position: static;/* Adjusted margin for p */
+}
+
+.Hello {
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.Hello p {
+    font-size: 21px;
+}
+
+.profile {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto; /* Center the profile div horizontally */
+    text-align: center; /* Center-align the content within the div */
+    margin-bottom: 30px;
+}
+
+
+.skills
+{
+  margin-left: 10px;
+  font-size: 25px;
+  font-family: 'Tangerine', cursive;
+}
+.skill1
+{
+  margin-left: 10px;
+  font-size: 20px;
+  font-family: 'Tangerine', cursive;
+}
+
+.skill2
+{
+  margin-left: 10px;
+  font-size: 20px;
+  font-family: 'Tangerine', cursive;
+
+}
+.contact-me
+{
+  margin-left: 10px;
+  font-size: 20px;
+  font-family: 'Tangerine', cursive;
+}
+.web{
+  margin-left: 15px;
+  }
+  .java{
+    margin-left: 15px;
+    }
+    hr {
+      background-color: white;
+      border-style: none;
+      border-bottom-style: groove;
+      border-color: #3887BE;
+      width: 60%;
+      border-width: 5px;
+    }
+    //
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f8f8;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1, h2, h3 {
+            color: #030637;
+        }
+
+        .text {
+            text-align: center;
+            margin-top: 20px;
+            font-family: 'Great Vibes', cursive;
+            font-family: 'Tangerine', cursive;
+        }
+
+         .skills, .contact-me {
+            background-color: #C5FFF8;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .skills, .contact-me {
+            text-align: center;
+        }
+
+        .skills img, .web img {
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .bottom-container {
+            background-color: #34495e;
+            color: #52D3D8;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .footer-link {
+            color: #52D3D8;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        .footer-link:hover {
+            text-decoration: underline;
+        }
+
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .left-section {
+            flex: 1;
+        }
+
+        .right-section {
+            flex: 1;
+            margin-left: 20px;
+        }
+        /* Flex container for skills */
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: stretch;
+            margin-top: 20px;
+        }
+
+        /* Flex items for each skill section */
+        /* Flex container for skills */
+
+
+/* Flex items for each skill section */
+.skill1,
+.skill2,
+.skill3 {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+
+}
+
+/* Styling for specific skills */
+.skill1 {
+    background-color: #3468C0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    margin-top: 20px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.skill2 {
+    background-color: #3468C0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    margin-top: 20px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.skill3 {
+    background-color: #0B60B0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    margin-top: 20px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .skills {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skill1,
+    .skill2,
+    .skill3 {
+        width: 100%;
+    }
+}
